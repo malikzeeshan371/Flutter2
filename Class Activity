@@ -1,0 +1,23 @@
+
+class Car{
+  
+  Car(String name){
+    
+    print(name);
+  }
+  }
+  
+  
+  
+
+void main(){
+  Car c1 = new Car("Honda");
+  Car c2 = new Car("Maruti");
+  Car c3 = new Car("Suzuki");
+  Car c4 = new Car("Toyota");
+  Car c5 = new Car("Glory");
+  }
+  
+
+
+
