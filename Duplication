@@ -1,0 +1,16 @@
+void main(){
+  print("Program started");
+  var aListOfStrings = ['Mango','Orange','Banana','Kiwi','Grapes','Kiwi'];
+  //String duplicateArray = aListOfStrings;
+  for(int i = 0; i<aListOfStrings.length-1; i++){
+    for(int j=i+1; j<aListOfStrings.length;j++){
+      if((aListOfStrings[i])==(aListOfStrings[j]) && (i !=j)){
+        print("The duplicate value is ${aListOfStrings[i]}");
+      }
+      // print("The duplicate value is $aListOfStrings");
+    }
+    // print("The duplicate value is $aListOfStrings");
+  }
+  
+  
+}
