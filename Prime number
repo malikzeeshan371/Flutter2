@@ -1,0 +1,20 @@
+ 
+  void main(){
+    
+    int num =5;
+    int i,m=0;
+    
+    m = num~/2;
+    
+    for(i = 2;i<=m;i++){
+    if(num%i == 0){
+      print('$num is not a prime number');
+     
+      break;
+    }
+  }
+  if(m==0){
+    print('$num is prime number');
+  }
+}
+  
