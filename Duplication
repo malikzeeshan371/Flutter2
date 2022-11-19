@@ -1,0 +1,20 @@
+void main(){
+  
+  var list = ['Mango','Kiwi','Mango'];
+  int i,j,no=3;
+  int count=0;
+  
+  for(i=0; i<no;i++){
+    for(j=i+1; j<no; j++){
+      if(list[i]==list[j]){
+        count++;
+        print(true);
+      }
+      
+    }
+    
+  }
+  if(count==0){
+    print("null");
+  }
+}
