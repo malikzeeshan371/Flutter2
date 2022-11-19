@@ -1,0 +1,28 @@
+class newEmployee {
+  void getInfo() {
+    var salary = 400;
+    var no_O_fHours = 8;
+
+    void addSal() {
+      if (salary < 500) {
+        salary = salary + 10;
+      }
+    }
+
+    void addWork() {
+      if (no_O_fHours > 6) {
+        salary = salary + 5;
+      }
+      
+    }
+
+    addSal();
+    addWork();
+    print(salary);
+  }
+}
+
+void main() {
+  newEmployee e = newEmployee();
+  e.getInfo();
+}
