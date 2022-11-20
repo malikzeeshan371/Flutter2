@@ -1,0 +1,52 @@
+class Bag {
+   
+   Bag()
+   {
+      print('Book Has');
+    }
+  
+  
+}
+
+class Book extends Bag{
+  Book()
+  {
+    print('Paper has');
+  }
+}
+
+class Pencil extends Bag{
+  Pencil()
+  {
+    print('Pencil');
+
+  }
+}
+class Paper extends Book{
+  Paper()
+  {print('this is ');
+}
+}
+
+class Word extends Paper{
+  Word(){
+    print('this is parent class');
+  
+
+    }
+}
+class Bottle{
+  Bottle();
+    
+  
+}
+
+class Water extends Bottle{
+  Water();
+}
+
+
+void main()
+{
+  Word p1=new Word();
+}
