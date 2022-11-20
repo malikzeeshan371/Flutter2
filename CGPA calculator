@@ -1,0 +1,24 @@
+class myStudent {
+  void input_name(int roll_no, String name) {
+    var sPassed = 7;
+    var gPA = [2.5, 2.6, 2.7, 2.8, 2.9, 3.0, 3.1, 3.2];
+    var sum = gPA.reduce((a, b) => a + b);
+    var cGPA = sum / sPassed;
+
+    void output_name() {
+      print('Roll no is:$roll_no');
+      print(name);
+
+      print('CGPA:$cGPA');
+    }
+
+    output_name();
+  }
+}
+
+void main() {
+  myStudent s1 = myStudent();
+  myStudent s2 = myStudent();
+  s1.input_name(25780, 'Hassan');
+  s2.input_name(24564, 'Zeeshan');
+}
